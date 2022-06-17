@@ -1,0 +1,75 @@
+
+.buttoncss{
+    height: 30px;
+    position: relative;
+    transform: skewX(25deg);
+    color: #0f0f0f;
+    border: none;
+    background: transparent;
+    border: none;
+    border-right: 1px solid #000;
+}
+.buttoncss:hover, .buttoncssf:hover{
+    background: red;
+    color: #fff;
+    transition: .4s all ease-in-out;
+    border-color: red;
+}
+.buttoncssf{
+    height: 30px;
+    position: relative;
+    transform: skewX(25deg);
+    color: #0f0f0f;
+    border: none;
+    background: transparent;
+    border: none;
+    /* border-right: 1px solid #000; */
+    border-left: 1px solid #d1cece;
+}
+.btn-tex{
+    font-size: 18px;
+    transform: skewX(-25deg);
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.buttonType{
+    height: 30px;
+}
+
+.element-percent {
+    color: #0f0f0f;
+    display: inline-block;
+    clip-path: polygon(0% 0%,90% 0%, 100% 100%, 0% 100%);
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border: none;
+    height: 100%;
+    background: transparent;
+}
+.element-percent:hover,.element-percentone:hover{
+        background: red;
+        color: #fff;
+        transition: .4s all ease-in-out;
+        border-color: red;
+}
+
+.element-percentone {
+    color: #fff;
+    display: inline-block;
+    clip-path: polygon(0% 0%,100% 0%, 100% 100%, 11% 104%);
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    font-size: 18px;
+    border: none;
+    /* margin: 0px; */
+    background: red;
+    padding-right: 10px;
+    height: 100%;
+}
